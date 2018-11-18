@@ -51,7 +51,7 @@ const Devless = {
       }
     }
 
-    return fetch(`${url}${service}/db?table=${table}${parameters}`, {
+    return fetch(`${url}${service}/api/v1/service/db?table=${table}${parameters}`, {
         method: 'GET',
         headers: header,
       })
